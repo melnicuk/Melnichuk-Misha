@@ -75,6 +75,10 @@ button {
 body{
    background-color: #F9E1B5;
   font: italic small-caps bold 16px/2 cursive;
+  transform: scale(0.67);
+  transform-origin: top left;
+  width: 149.25%; /* 100 / 0.67 */
+  height: auto;
  
 }
 .dog{
@@ -156,4 +160,28 @@ p{
   transform: translateX(100%);
   box-shadow: inset 15px -4px 0px 15px #fff000;
 }
-
+.div{
+  display: flex;
+  padding: 100px;
+}
+.Kompania{
+  padding: 200px;
+  border: solid black 1px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 20px;
+}
+.Informashion{
+  padding: 200px;
+    border: solid black 1px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 20px;
+}
+.Kontakti{
+  padding: 200px;
+    border: solid black 1px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 20px;
+}
