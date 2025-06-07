@@ -5,6 +5,6 @@ toggle.addEventListener('change', function () {
   if (this.checked) {
     document.body.style.backgroundColor = '#F9E1B5'; 
   } else {
-    document.body.style.backgroundColor = '#7F3C25'; 
+    document.body.style.backgroundColor = '#ba8150'; 
   }
 });
