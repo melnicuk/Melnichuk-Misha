@@ -8,49 +8,6 @@ toggle.addEventListener('change', function () {
   }
 });
 
-// Відображаємо товари на сторінці
-getProducts().then(function(products){
-    let productsList = document.querySelector('.products-list')
-    if (productsList) { 
-        products.forEach(function(product) {
-            productsList.innerHTML += getCardHTML(product)
-        })
-    }
-})
-
-function getCardHTML(product) {
-    return `<div class="my-card" style="">
-            <img src="img/${product.image}">
-            <h5 class="text-my-card">${product.title}</h5>
-            <p class="description-card"> ${product.description} </p>
-            <p class="price-card">${product.price} грн</p>
-            <button type="button" class="cart-btn">Купити</button>
-        </div>`
-}
-async function getProducts (){
-    let response = await fetch("store_db.json")
-    let products = await response.json()
-    return products
-}
-// Функція для отримання значення кукі за ім'ям
-function getCookieValue(cookieName) {
-    // Розділяємо всі куки на окремі частини
-    const cookies = document.cookie.split(';');
-
-    // Шукаємо куки з вказаним ім'ям
-    for (let i = 0; i < cookies.length; i++) {
-        const cookie = cookies[i].trim(); // Видаляємо зайві пробіли
-
-        // Перевіряємо, чи починається поточне кукі з шуканого імені
-        if (cookie.startsWith(cookieName + '=')) {
-            // Якщо так, повертаємо значення кукі
-            return cookie.substring(cookieName.length + 1); // +1 для пропуску символу "="
-        }
-    }
-    // Якщо кукі з вказаним іменем не знайдено, повертаємо порожній рядок або можна повернути null
-    return '';
-}
-
 // Отримуємо дані про товари з JSON файлу
 async function getProducts() {
     let response = await fetch("store_db.json");

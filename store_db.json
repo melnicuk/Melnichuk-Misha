@@ -1,22 +1,22 @@
 [
 {
   "title":"Сухий корм для собак",
-  "prise":658,
-  "image":"Img/картинки/картинки/Корм1.jpg",
+  "price":"658",
+  "image":"Корм2.jpg",
   "description":"Ням Ням"
 },
 
 {
   "title":"Корм для собак",
-  "prise":200,
-  "image":"",
+  "price":"200",
+  "image":"Корм4.jpg",
   "description":"Ням Ням"
 },
 
 {
   "title":"Корм для собак",
-  "prise":200,
-  "image":"",
+  "price":"200",
+  "image":"Корм3.jpg",
   "description":"Ням Ням"
 }
 
