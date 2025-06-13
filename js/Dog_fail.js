@@ -63,3 +63,4 @@ cartBtn.addEventListener("click", function () {
     // Переходимо на сторінку кошика
     window.location.assign('index2.html');
 });
+

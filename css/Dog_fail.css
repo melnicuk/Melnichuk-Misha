@@ -225,7 +225,7 @@ p{
   margin: 50px auto; 
   background-color: #D9A273;
   width: 2500px; 
-  height: 6300px; 
+  height: 2000px; 
   position: relative; 
   left: 50%; 
   transform: translateX(-50%);  
@@ -285,7 +285,7 @@ h3{
   padding-left: 50px;
   padding-top: 25px;
   text-align: center;
-  cursor: pointer;
+ 
    
 }
 .caption {
@@ -295,7 +295,29 @@ h3{
   text-align: center;
 
 }
-.tovar img:hover{
-  padding: 5px;
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.my-card {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.products-list p {
+  color: black;
+}
+
+.products-list .price-card {
+  color: green;
+  font-weight: bold;
 }
 

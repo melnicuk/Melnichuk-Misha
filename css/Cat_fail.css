@@ -258,3 +258,29 @@ p{
   transform-origin: top left;
   width: 149.25%;
 }
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.my-card {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.products-list p {
+  color: black;
+}
+
+.products-list .price-card {
+  color: green;
+  font-weight: bold;
+}
+
