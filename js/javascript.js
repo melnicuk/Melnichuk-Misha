@@ -8,3 +8,17 @@ toggle.addEventListener('change', function () {
     document.body.style.backgroundColor = '#ba8150'; 
   }
 });
+if (!sessionStorage.getItem("welcomeShown")) {
+  document.body.classList.add('modal-open');
+  document.getElementById('welcome').style.display = 'flex';
+} else {
+  document.getElementById('welcome').style.display = 'none';
+}
+js
+Копіювати
+Редагувати
+function closeWelcome() {
+  document.getElementById('welcome').style.display = 'none';
+  document.body.classList.remove('modal-open');
+  sessionStorage.setItem("welcomeShown", "true");
+}
