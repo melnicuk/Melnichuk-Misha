@@ -15,6 +15,7 @@ async function getProducts() {
     return products;
 };
 
+
 // Генеруємо HTML-код для карточки товару
 function getCardHTML(product) {
     return `
