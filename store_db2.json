@@ -1,64 +1,70 @@
 [
 {
   "title":"Сухий корм",
-  "price":"0",
-  "image":"Картинка1.jpg",
+  "price":"531",
+  "image":"Коти1.jpg",
   "description":""
 },
 
 {
   "title":"Миска для корму",
-  "price":"913",
-  "image":"Картинка2.jpg",
+  "price":"292",
+  "image":"Коти2.jpg",
   "description":""
 },
 
 {
-  "title":"Ігрове кільце для собак, 20 см",
-  "price":"213",
-  "image":"Картинка3.jpg",
+  "title":"Наповнювач",
+  "price":"118",
+  "image":"Коти3.jpg",
   "description":""
 },
 {
-  "title":"М'який лежак з бортами",
-  "price":"2031",
-  "image":"Картинка4.jpg",
+  "title":"Туалет із сіткою для котів",
+  "price":"134",
+  "image":"Коти4.jpg",
   "description":""
 },
 {
-  "title":"Повідець-рулетка для котів та собак",
-  "price":"390",
-  "image":"Картинка5.jpg",
+  "title":"Світлодіодна указка для котів",
+  "price":"144",
+  "image":"Коти5.jpg",
   "description":""
 },
 {
-  "title":"Намордник",
-  "price":"500",
-  "image":"Картинка6.jpg",
+  "title":"Вудочка з рибкою для котів",
+  "price":"135",
+  "image":"Коти6.jpg",
   "description":""
 },
 {
-  "title":"Рукавичка для грумінгу",
-  "price":"169",
-  "image":"Картинка7.jpg",
+  "title":" Кігтеточка з платформою джутова, бежева",
+  "price":"907",
+  "image":"Коти7.jpg",
+  "description":""
+},
+{
+  "title":"Лежак Nest для котів ",
+  "price":"402",
+  "image":"Коти8.jpg",
+  "description":""
+},
+{
+  "title":"Trixie Capri III Переноска для собак і котів",
+  "price":"1347",
+  "image":"Коти9.jpg",
+  "description":""
+},
+{
+  "title":"Trixie Гребінець з металевими зубцями",
+  "price":"151",
+  "image":"Коти10.jpg",
   "description":""
 },
 {
   "title":"Шампунь",
   "price":"162",
-  "image":"Картинка8.jpg",
-  "description":""
-},
-{
-  "title":"Інструменти для чищення від вовни",
-  "price":"43",
-  "image":"Картинка9.jpg",
-  "description":""
-},
-{
-  "title":"Ласощі для собак",
-  "price":"67",
-  "image":"Картинка10.jpg",
+  "image":"Коти11.jpg",
   "description":""
 }
 ]

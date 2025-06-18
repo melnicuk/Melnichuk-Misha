@@ -1,0 +1,9 @@
+body{
+   background-color: #F9E1B5;
+  font: italic small-caps bold 16px/2 cursive;
+  transform: scale(0.67);
+  transform-origin: top left;
+  width: 149.25%; /* 100 / 0.67 */
+  height: auto;
+ 
+}
