@@ -15,7 +15,6 @@ async function getProducts() {
     return products;
 };
 
-
 // Генеруємо HTML-код для карточки товару
 function getCardHTML(product) {
     return `
@@ -64,3 +63,31 @@ cartBtn.addEventListener("click", function () {
     // Переходимо на сторінку кошика
     window.location.assign('index2.html');
 });
+
+function updateCartCounter() {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+    const counter = document.getElementById("cart-counter");
+    if (counter) {
+        counter.textContent = count;
+    }
+}
+document.addEventListener("DOMContentLoaded", updateCartCounter);
+function addToCart(event) {
+    const product = JSON.parse(event.currentTarget.getAttribute("data-product"));
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    // Якщо товар уже є — збільшуємо кількість
+    const existingProduct = cart.find(item => item.title === product.title);
+    if (existingProduct) {
+        existingProduct.quantity += 1;
+    } else {
+        product.quantity = 1;
+        cart.push(product);
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    updateCartCounter();
+}
+
+document.addEventListener("DOMContentLoaded", updateCartCounter);

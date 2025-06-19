@@ -102,7 +102,7 @@ body{
     text-align: center;
 }
 p{
-    color: #F9E1B5;
+    color: green;
 }
 .img_dog{
     border: solid black 1px;
@@ -322,12 +322,75 @@ h3{
 }
 
 .Koshuk {
-    margin: 50px auto; /* автоцентр по горизонталі */
+    margin: 50px auto; 
     border: solid black 1px;
     border-radius: 10px;
-    width: 100%; /* або залишити 2000px, якщо це потрібно */
-    max-width: 2000px; /* обмеження */
-    height: 1000px;
+    width: 100%; 
+    max-width: 2000px; 
+    height: 2000px;
     background-color: #D9A273;
     text-align: center;
+}
+#cart-counter {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid black;
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.cart-image {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.cart-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.quantity-input {
+  width: 60px;
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}
+.cart-icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-counter-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  border: 2px solid white;
+  z-index: 10;
 }

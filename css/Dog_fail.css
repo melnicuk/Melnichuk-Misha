@@ -321,3 +321,9 @@ h3{
   font-weight: bold;
 }
 
+.cart-counter-badge{
+ border: solid black 2px;
+ border-radius: 50px;
+ padding: 10px;
+ background-color: white;
+}
