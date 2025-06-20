@@ -327,7 +327,15 @@ h3{
     border-radius: 10px;
     width: 100%; 
     max-width: 2000px; 
-    height: 2000px;
+    margin: 50px auto;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 2000px;
+    background-color: #D9A273;
+    text-align: center;
+    padding: 20px;
+    height: auto;
     background-color: #D9A273;
     text-align: center;
 }
@@ -463,8 +471,7 @@ h3{
 }
 #order-form-section {
   transition: all 0.3s ease-in-out;
-  border: 2px solid black;
-  padding: 30px
+  
  
 }
 #toggle-form {
@@ -478,6 +485,12 @@ h3{
   transition: background-color 0.3s;
 }
 .oformlenie{
+  
+  margin: 55px;
+  border-radius: 30px;
   background-color: #D9A273;
+   border: 2px solid black;
+  padding: 30px
+
 }
 
